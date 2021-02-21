@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+[System.Serializable]
 public class Character : Unit
 {
     private int lives = 5;
     private float speed = 3.0f;
     private float jumpForce = 15.0f;
     private bool isGrounded = false;
+    public string name;
 
     private CharState State
     {
@@ -42,7 +44,7 @@ public class Character : Unit
     // Start is called before the first frame update
     void Start()
     {
-        
+        name = PlayerPrefs.GetString("Name");
     }
 
     private void FixedUpdate()
