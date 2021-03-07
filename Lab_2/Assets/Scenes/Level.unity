@@ -639,7 +639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f002f2643815f2a439815ffe1d228774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _targetLocation: {x: 10, y: 3.654715, z: 60.35632}
+  _targetLocation: {x: 12, y: 3.654715, z: 60.35632}
 --- !u!1 &407104968
 GameObject:
   m_ObjectHideFlags: 0
